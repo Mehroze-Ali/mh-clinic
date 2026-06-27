@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | MH Medical & Dental Clinic</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <span class="logo-icon"></span>
+          MH Medical & Dental Clinic
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary">Book Appointment</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header bg-light">
+      <div class="container">
+        <h1>Contact MH Medical & Dental Clinic</h1>
+        <p>Reach out for appointments, clinic details, and patient support.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding fade-in-section">
+      <div class="container contact-container">
+        <div class="contact-info-grid">
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h3>Phone</h3>
+            <p>Call us directly for appointments and assistance.</p>
+            <a href="tel:+923348694111" class="contact-link">+92 334 8694111</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h3>Business Type</h3>
+            <p>Medical Center</p>
+            <a href="#" class="contact-link">Women-Owned Clinic</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <h3>Location</h3>
+            <p>
+              Plot G1, 1 Mughal Market, Near Haleem Ghar, I-8/1, Islamabad,
+              44000, Pakistan
+            </p>
+            <a href="#" class="contact-link">M368+WR Islamabad, Pakistan</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <div class="contact-form-content">
+            <h2>Book Appointment</h2>
+            <p>
+              Fill out the form below and a member of our team will contact you
+              to confirm your visit.
+            </p>
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+1 (555) 000-0000"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required />
+              </div>
+              <div class="form-group">
+                <label for="department">Department</label>
+                <select id="department" name="department" required>
+                  <option value="" disabled selected>
+                    Select a service...
+                  </option>
+                  <option value="medical">Medical Consultation</option>
+                  <option value="dental">Dental Consultation</option>
+                  <option value="checkups">General Checkups</option>
+                  <option value="preventive">Preventive Care</option>
+                  <option value="oral">Oral Health Services</option>
+                  <option value="procedures">Minor Procedures</option>
+                  <option value="family">Family Medicine</option>
+                  <option value="followup">Follow-up Care</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Briefly describe your symptoms or appointment request..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                Submit Request
+              </button>
+            </form>
+          </div>
+          <div class="map-container">
+            <div
+              class="map-placeholder"
+              style="padding: 0; border: none; background: none"
+            >
+              <iframe
+                src="https://www.google.com/maps?q=Plot%20G1%2C%201%20Mughal%20Market%2C%20Near%20Haleem%20Ghar%2C%20I-8%2F1%2C%20Islamabad%2C%2044000%2C%20Pakistan&output=embed"
+                width="100%"
+                height="100%"
+                style="border: 0; border-radius: inherit; display: block"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo"
+            >MH Medical & Dental Clinic</a
+          >
+          <p>Professional medical and dental care you can trust.</p>
+          <div style="margin-top: 1rem">
+            <a href="#" style="color: #a0aec0; margin-right: 15px">Facebook</a>
+            <a href="#" style="color: #a0aec0; margin-right: 15px">Twitter</a>
+            <a href="#" style="color: #a0aec0">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="#services">Our Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            Plot G1, 1 Mughal Market, Near Haleem Ghar, I-8/1, Islamabad, 44000,
+            Pakistan
+          </p>
+          <p>Phone: +92 334 8694111</p>
+          <p>Location Reference: M368+WR Islamabad, Pakistan</p>
+          <p style="margin-top: 0.5rem">
+            <strong>Opening Hours:</strong><br />Open Daily<br />Closes at 10:00
+            PM
+          </p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 MH Medical & Dental Clinic. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
