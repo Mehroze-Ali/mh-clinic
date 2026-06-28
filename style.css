@@ -223,8 +223,16 @@ a {
    Hero Section
    ========================================================================== */
 .hero {
-  padding-top: 150px;
+  /* 1. Change top padding to match bottom so it's even */
+  padding-top: 6rem;
   padding-bottom: 6rem;
+
+  /* 2. Add these 3 lines to make it tall and push content to the middle */
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+
+  /* 3. Keep your existing background */
   background: linear-gradient(
     to right,
     var(--clr-surface) 50%,
